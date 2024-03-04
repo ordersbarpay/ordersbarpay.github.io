@@ -94,7 +94,7 @@ padding: 0px;
 #my-qr-reader__dashboard_section {
   opacity: 100%;
   border: white;
-  display: none;
+
 }
 
 ::-moz-selection {
