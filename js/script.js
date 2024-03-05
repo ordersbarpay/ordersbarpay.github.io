@@ -24,4 +24,6 @@ domReady(function () {
     { fps: 10, qrbos: 250, qrbox: {width:250, height:250} }
   );
   htmlscanner.render(onScanSuccess);
+  console.log("stopDisp-lay");
+  //document.querySelector("#html5-qrcode-button-camera-stop").display = "none";
 });

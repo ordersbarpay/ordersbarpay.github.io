@@ -91,10 +91,18 @@ padding: 0px;
   height: 50%;
 }
 
-#my-qr-reader__dashboard_section {
+#html5-qrcode-button-camera-stop {
   opacity: 100%;
-  border: white;
+  display: none;
+}
 
+span {
+  display: none;
+}
+
+
+.html5-qrcode-element {
+  display: none;
 }
 
 ::-moz-selection {
