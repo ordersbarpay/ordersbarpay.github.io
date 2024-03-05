@@ -96,14 +96,6 @@ padding: 0px;
   display: none;
 }
 
-span {
-  display: none;
-}
-
-
-.html5-qrcode-element {
-  display: none;
-}
 
 ::-moz-selection {
   background: #b3d4fc;
