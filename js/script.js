@@ -30,7 +30,7 @@ domReady(function () {
   const qrCodeSuccessCallback = (decodedText, decodedResult) => {
     /* handle success */
   };
-  const config = { fps: 10, qrbox: { width: 250, height: 250 } };
+  const config = { fps: 10, aspectRatio: 1, qrbox: { width: 125, height: 125 },  };
   html5QrCode.start({ facingMode: "environment" }, config, onScanSuccess);
   html5QrCode.render(onScanSuccess)
   //document.querySelector("#html5-qrcode-button-camera-stop").display = "none";
