@@ -83,6 +83,13 @@ padding: 0px;
 
 }
 
+.invis {
+
+  background: transparent;
+  border: none !important;
+  font-size:0;
+  width : 100%;
+}
 .qrCode {
   text-align: center;
   margin: auto;
